@@ -1,0 +1,19 @@
+source: ./map_fr1_desk.txt
+target: ./map_fr1_desk2.txt
+displacement:
+  x: 0
+  y: 1
+  z: 0.4
+  roll: 10
+  pitch: 0
+  yaw: 22.5
+
+max_iterations: 150
+correspondence_search_knn: 5
+
+experiment_toggle:
+  initial: true
+  base: true
+  covariance: true
+  num_observations: true
+  distance_mean: true
